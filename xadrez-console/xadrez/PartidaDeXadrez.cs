@@ -1,10 +1,12 @@
 ﻿using System;
 using tabuleiro;
 
+
 namespace xadrez
 {
     class PartidaDeXadrez
     {
+
         public Tabuleiro tab { get; private set; }
         private int turno;
         private Cor jogadorAtual;
